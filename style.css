@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #09021c1f;
+    font-family: 'Montserrat', sans-serif;
+    color: #1c1e21;
+    line-height: 1.34;
+}
+
+.inputForm {
+    margin: 4px;
+    height: 22px;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    line-height: 16px;
+    vertical-align: middle;
+
+}
+
+#error {
+    text-align: center;
+    color: red;
+    font-weight: 600;
+    display: none;
+    background-color: rgb(242, 217, 217);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.error{
+color: red;
+font-weight: 500;
+}
+
+
+.inputForm:hover {
+    background-color: white;
+}
+
+.btn {
+    background-color: #445bd3;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+    margin: 35px 0px 40px 0px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #737ade;
+}
+
+
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.resultado {
+    color: #034d06bf;
+    text-align: center;
+    font-weight: 600;
+    display: none;
+    background-color: #aad1abbf;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#calculadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.contenido {
+    min-width: 500px;
+    border-radius: 8px;
+    margin: 25px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 0 0 14px 0;
+    border: 1px solid #dddfe2;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+}
+
+.tittleForm {
+    margin: 25px;
+}
+
+.tittleForm>h2 {
+    font-weight: 500;
+}
+h6{
+    font-size: 20px;
+}
+.inputError{
+border: solid 1px red;
+}
+.inputForm::before{
+background-color: #445bd3;
+}

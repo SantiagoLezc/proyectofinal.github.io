@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer> </script>
+    <meta charset="utf-8" />
+    <title>Título de la web</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="calculadora">
+            <div class="contenido">
+                <div class="tittleForm">
+                    <h2>Presupuestador Express</h2>
+                </div>
+
+
+                <div class="inputContainer">
+                    <input class="inputForm" id="material" type="number" placeholder="Costo Material">
+                    <p class="error" id="materialError">
+                    </p>
+                </div>
+
+
+                <div class="inputContainer">
+
+                    <input class="inputForm" id="combus" type="number" placeholder="Gasto Combustible">
+                    <p class="error" id="combusError">
+                    </p>
+                </div>
+
+
+                <div class="inputContainer">
+
+                    <input class="inputForm" id="ManoDeObra" type="number" placeholder="Costo Mano De Obra">
+                    <p class="error" id="manoObraError">
+                    </p>
+                </div>
+
+
+                <div class="inputContainer">
+
+                    <input class="inputForm" id="viatico" type="number" placeholder="Viatico">
+                    <p class="error" id="viaticoError">
+                    </p>
+                </div>
+
+
+                <div class="inputContainer">
+
+                    <input class="inputForm" id="otros" type="number" placeholder="Otros">
+                    <p class="error" id="otrosError">
+                    </p>
+                </div>
+
+
+                <div class="inputContainer">
+                    <input step="0.1" min="0.1" max="1" class="inputForm" id="dificultad" type="number"
+                        placeholder="Dificultad">
+                    <p class="error" id="dificultadError"></p>
+                    <p class="error" id="rangoError"></p>
+
+                </div>
+
+                <h6 id="error">* Favor, ingrese todos los valores.</h6>
+
+                <button class="btn" id="presupuestar">Presupuestar</button>
+
+                <h3 class="resultado" id="gs">Gs</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>
